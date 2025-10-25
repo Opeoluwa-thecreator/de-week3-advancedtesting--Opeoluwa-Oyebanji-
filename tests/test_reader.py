@@ -4,7 +4,7 @@ from order_pipeline.reader import Reader
 import json
 import os
 
-DATA = "shoplink.json"  # we assume file is at repo root for the tests
+DATA = "shoplink.json"  
 
 def test_read_json(tmp_path):
     # copy sample to tmp and read
